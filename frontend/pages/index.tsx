@@ -1,6 +1,7 @@
 // Puedes acceder a la variable de entorno directamente en tu código
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 import React, {useEffect, useState} from 'react';
+import '../styles/globals.css'
 
 const Home = () => {
 	const [htmlContent, setHtmlContent] = useState('');
